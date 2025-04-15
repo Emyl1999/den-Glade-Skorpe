@@ -1,0 +1,64 @@
+.burgerMenu {
+  color: var(--whiteFont-color);
+  font-size: 300%;
+  z-index: 1001;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none; 
+  z-index: 1000; 
+}
+
+.show {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  text-align: center;
+  gap: 2rem;
+  background-color: var(--grey-color);
+  color: var(--blackFont-color);
+  z-index: 1000; 
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-color);
+  width: 100%;
+  padding: 0;
+
+  &:hover{
+    background-color: var(--grey-color);
+    color: var(--blackFont-color);
+  }
+}
+
+.nav a, .nav button {
+  width: 50%;
+  font-size: 3rem;
+  color: var(--whiteFont-color);
+  text-decoration: none;
+  border: none;
+  font-weight: 100;
+}
+
+.nav a:hover {
+  color: var(--blackFont-color);
+}
+
+.active {
+  font-weight: bold;
+}
+

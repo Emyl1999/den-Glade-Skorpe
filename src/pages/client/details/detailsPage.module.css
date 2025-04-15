@@ -1,0 +1,100 @@
+.dishImage{
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.dishInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: var(--lightPink-color);
+    padding: 5vh 0;
+}
+
+.dishTitle {
+    color: var(--whiteFont-color);
+    font-size: 4rem;
+    font-weight: bold;
+    /* Adds the outline to the title */
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        0px 2px 0 black, 
+        2px 0px 0 black, 
+        -2px 0px 0 black, 
+        0px -2px 0 black;
+}
+
+.dishIngredients{
+    font-family: "Kurale", serif;
+    margin: 1vh 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dishSize{
+    width: 80%;
+    background-color: var(--lightPink-color);
+    border: none;
+    height: 40px;
+    padding-left: 10%;
+    margin-bottom: 5vh;
+}
+
+.dishPriceText{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Kurale", serif;
+    margin-top: 2vh;
+}
+
+
+.dishPrice{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Kurale", serif;
+}
+
+
+.dishToCart{
+    margin: 5vh 0;
+    width: 70%;
+    height: 60px;
+    background-color: var(--grey-color);
+    color: var(--whiteFont-color);
+    font-size: 2.5rem;
+    border-radius: 50px;
+}
+
+.successfullyAdded{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 0 3vh 0;
+}
+
+@media(min-width: 1024px){
+    .dishImage{
+        width: 400px;
+    }
+
+    .dishSize{
+        width: 20%;
+        border-radius: 10px;
+        padding-left: 25px;
+    }
+
+    .dishToCart{
+        width: 30%;
+    }
+  }

@@ -1,0 +1,48 @@
+.form{
+    background-color: var(--lightPink-color);
+    padding: 25px;
+    
+    input{
+        background-color: var(--lightPink-color);
+    }
+
+    textarea{
+        background-color: var(--lightPink-color);
+        min-height: 20vh;
+    }
+
+    button{
+        margin: 5vh 0;
+        width: 80%;
+        height: 60px;
+        background-color: var(--grey-color);
+        color: var(--whiteFont-color);
+        font-size: 2.5rem;
+        border-radius: 50px;
+    }
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    font-family: "Kurale", serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+@media(min-width: 1024px){
+    .form{
+        margin: 2vh 0;
+        padding: 5vh 25%;
+        
+        input, textarea{
+            font-size: 2rem;
+            font-family: "Kurale", serif;
+        }
+    }
+  }

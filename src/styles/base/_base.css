@@ -1,0 +1,89 @@
+/*
+
+
+    BASE ROOT STYLES
+
+
+*/
+
+@import '_form.css';
+@import '_table.css';
+@import '_utilities.css';
+@import '_button.css';
+@import '_typograhy.css';
+@import '_variables.css';
+@import '_font.css';
+
+:root {
+
+   
+    line-height: 1.5;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--base-text-color);
+    background-color: var(--base-background-color);;
+    font-family: var(--primary-font), 'sans-serif';
+   
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+  BASE ROOT ELEMENT STYLES
+
+*/
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+
+  font-size: 1.6rem;
+  margin: 0;
+  min-width: 320px;
+  scroll-behavior: smooth;
+  font-family: var(--primary-font);
+  
+}
+
+.globale-page-wrapper {
+  
+  width: 100%;
+  padding: 0 0;
+  min-height : calc(100vh - 81px - 60px);
+
+}
+
+a {
+  color : #000;
+  &:hover {
+    color : var(--mc-color-orange)
+  }
+
+  &.mcdlink {
+    text-decoration: none;
+    border-top: 1px solid var(--mc-color-green);
+    border-bottom: 3px solid var(--mc-color-orange);
+  }
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: var(--primary-font);
+}
+
+p{
+    font-family: var(--secondary-font);
+}
+
+

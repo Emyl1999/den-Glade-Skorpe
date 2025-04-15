@@ -1,0 +1,79 @@
+.container{
+    height: 100vh;
+    background-image: url(/headerImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    h1{
+        color: var(--whiteFont-color);
+        font-family: "Kurale", serif;
+        font-size: 4rem;
+    }
+}
+
+.loginBackground{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 3vh 0;
+}
+
+.form{
+    width: 80%;
+    margin: 2vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.input{
+    height: 75px;
+    font-size: 2.5rem;
+    font-family: "Kurale", serif;
+}
+
+.createAccount{
+    color: var(--whiteFont-color);
+    font-family: "Kurale", serif;
+    font-size: 2rem;
+    text-decoration: underline;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.login{
+    margin: 3vh 0;
+    width: 150px;
+    height: 75px;
+    font-size: 2.5rem;
+    font-family: "Kurale", serif;
+}
+
+@media(min-width: 1024px){
+    .form{
+        width: 30%;
+    }
+
+    .input{
+        height: 50px;
+    }
+
+    .login{
+        border: 1px solid white;
+    }
+
+    .login:hover{
+        background-color: rgb(51, 51, 51);
+    }
+  }

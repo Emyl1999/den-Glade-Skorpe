@@ -1,0 +1,40 @@
+/* PAGES */
+.text-center {
+    text-align: center;
+    width: 100%;
+}
+
+/* FONTS */
+.frankRuhlLibre {
+    font-family: var(--font-frankRuhlLibre);
+}
+
+
+/* TEXT COLORS */
+.mc-green {
+    color : var(--mc-color-green);
+}
+
+.mc-yellow {
+    color : var(--mc-color-yellow);
+}
+
+.mc-orange {
+    color : var(--mc-color-orange);
+}
+
+/* BACKGROUND COLORS */
+.mc-green-bg {
+    color: #FFF;
+    background-color : var(--mc-color-green);
+}
+
+.mc-yellow-bg {
+    color: #000;
+    background-color : var(--mc-color-yellow);
+}
+
+.mc-orange-bg {
+    color: #fff;
+    background-color : var(--mc-color-orange);
+}

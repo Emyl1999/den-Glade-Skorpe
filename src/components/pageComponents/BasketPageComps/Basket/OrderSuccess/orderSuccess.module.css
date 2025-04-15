@@ -1,0 +1,55 @@
+.successContainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/headerImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.successContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.411);
+    z-index: 0;
+}
+
+.successMessage {
+    color: var(--blackFont-color);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #f4e7df;
+    width: 100%;
+    padding: 25px;
+    opacity: 80%;
+    margin-bottom: 10%;
+
+    h2{
+        font-family: "Kurale", serif;
+        font-size: 2rem;
+    }
+}
+
+.closeButton {
+    color: var(--whiteFont-color);
+    font-size: 6rem;
+    position: absolute;
+    top: 15%;
+    right: 15px;
+    z-index: 1;
+
+    :hover{
+        cursor: pointer;
+    }
+}

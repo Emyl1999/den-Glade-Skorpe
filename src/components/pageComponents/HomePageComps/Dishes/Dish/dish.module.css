@@ -1,0 +1,50 @@
+.dish{
+    position: relative;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.dishImage{
+    width: 100%;
+    padding: 10px;
+}
+
+.dishImageTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+        1px 1px 0 black, 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        0px 2px 0 black, 
+        2px 0px 0 black, 
+        -2px 0px 0 black, 
+        0px -2px 0 black;
+}
+
+@media(min-width: 1024px){
+
+    .dish{
+        border: 1px solid black;
+        border-radius: 500px;
+    }
+
+    .dish:hover{
+        cursor: pointer;
+        background-color: black;
+    }
+  }

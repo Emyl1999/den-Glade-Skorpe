@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    height: 20%;
+    background-color: var(--grey-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    color: var(--whiteFont-color);
+    padding: 10px 0;
+    gap: 15px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.contactInfo{
+    display: flex;
+    font-size: 1.25rem;
+    gap: 15px;
+}

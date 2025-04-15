@@ -1,0 +1,68 @@
+/* boEmployeeList.module.css */
+
+.list {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  tbody tr:hover {
+    background: var(--whiteFont-color);
+  }
+  
+  td {
+    padding: 10px;
+    font-size: 3rem;
+  }
+  
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .actions {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .action {
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--blackFont-color);
+    color: var(--whiteFont-color);
+  }
+  
+  button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: var(--blackFont-color);
+    color: var(--whiteFont-color);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: var(--whiteFont-color);
+  }
+  

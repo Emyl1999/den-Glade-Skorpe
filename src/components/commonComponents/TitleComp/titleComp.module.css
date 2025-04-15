@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 5vh 0 0;
+}
+
+@media(min-width: 1024px){
+    .title{
+        margin: 0 150px;
+    }
+  }
